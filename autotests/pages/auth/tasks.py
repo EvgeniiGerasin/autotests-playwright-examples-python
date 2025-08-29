@@ -1,5 +1,5 @@
 from pages.auth.locators import Locators
-from autotests.pages.task_base import TaskBase
+from pages.task_base import TaskBase
 from data.data import Users
 
 

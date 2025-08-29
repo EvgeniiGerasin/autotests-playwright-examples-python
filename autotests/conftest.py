@@ -13,9 +13,8 @@ def browser() -> Generator[Browser, Any, None]:
 
 @fixture
 def context(browser: Browser) -> Generator[BrowserContext, Any, None]:
-    context: BrowserContext = browser.new_context(storage_state='./storage.json')
+    context: BrowserContext = browser.new_context()
     yield context
-    context.storage_state(path='./storage.json')
     context.close()
 
 @fixture

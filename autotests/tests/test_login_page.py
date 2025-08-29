@@ -7,7 +7,7 @@ from allure import epic, title, step
 
 
 @epic('Страница входа')
-class TestMainPage:
+class TestLoginPage:
 
     @title('Открытие страницы')
     def test_open_page(self, browser: Browser, context: BrowserContext, page: Page):

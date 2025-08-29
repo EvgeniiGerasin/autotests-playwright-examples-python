@@ -1,5 +1,5 @@
 from pages.main_page.locators import Locators
-from autotests.pages.task_base import TaskBase
+from pages.task_base import TaskBase
 
 
 class TaskMainPage(TaskBase):
