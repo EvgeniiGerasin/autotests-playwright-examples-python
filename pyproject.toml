@@ -1,0 +1,19 @@
+[project]
+name = "autotests-playwright-examples-python"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "e.d.gerasin",email = "e.d.gerasin@yandex.ru"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pytest (>=8.4.1,<9.0.0)",
+    "playwright (>=1.55.0,<2.0.0)",
+    "allure-pytest (>=2.15.0,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
