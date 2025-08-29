@@ -12,5 +12,5 @@ class TaskAuth(TaskBase):
         self.p.locator(Locators.button_login).click()
 
     def check_open_page(self):
-
+        self.report.add_screenshot_to_report()
         self.expect(self.p.locator(Locators.button_login)).to_be_visible()
